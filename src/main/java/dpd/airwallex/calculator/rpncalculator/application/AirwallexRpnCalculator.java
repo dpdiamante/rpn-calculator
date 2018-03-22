@@ -6,6 +6,9 @@ import dpd.airwallex.calculator.rpncalculator.domain.services.RpnCalculator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+/**
+ * An <code>AirwallexRpnCalculator</code> computes a stream of input using the RPN logic.
+ */
 @Component
 public class AirwallexRpnCalculator {
 
@@ -16,6 +19,12 @@ public class AirwallexRpnCalculator {
         this.rpnCalculator = rpnCalculator;
     }
 
+    /**
+     * Computes the stream of input in accordance to RPN logic.
+     *
+     * @param commandInput
+     * @param userInterfacePort
+     */
     public void calculate(String commandInput, UserInterfacePort userInterfacePort) {
 
         String[] commands = commandInput.split(" ");

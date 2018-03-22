@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
+/**
+ * Handles subtraction computation
+ */
 @Component
 public class SubtractionComputer extends AbstractRpnComputer {
 

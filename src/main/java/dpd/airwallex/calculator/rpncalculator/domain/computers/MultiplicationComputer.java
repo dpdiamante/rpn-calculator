@@ -8,6 +8,9 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/**
+ * Handles multiplication computation
+ */
 @Component
 public class MultiplicationComputer extends AbstractRpnComputer {
 

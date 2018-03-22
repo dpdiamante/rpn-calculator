@@ -8,6 +8,9 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/**
+ * Handles division computation
+ */
 @Component
 public class DivisionComputer extends AbstractRpnComputer {
 
