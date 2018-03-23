@@ -1,7 +1,7 @@
 # rpn-calculator
-##RPN Calculator
+## RPN Calculator
 
-##Usage
+## Usage
 
 ###### Through IDE
 1. Clone and import the project as a maven project into your desired IDE
